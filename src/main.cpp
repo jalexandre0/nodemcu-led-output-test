@@ -45,7 +45,7 @@ void loop() {
   digitalWrite(D6, HIGH) ;
   digitalWrite(D7, HIGH) ;
   digitalWrite(D8, HIGH) ;
-  //delay(5000) ;
+  delay(5000) ;
   Serial.println("Setting All LOW!") ;
   digitalWrite(D0, LOW) ;
   digitalWrite(D1, LOW) ;
@@ -56,6 +56,6 @@ void loop() {
   digitalWrite(D6, LOW) ;
   digitalWrite(D7, LOW) ;
   digitalWrite(D8, LOW) ;
-  //delay(5000) ;
+  delay(5000) ;
   wdt_reset() ;
 }

@@ -4,3 +4,4 @@
 .gcc-flags.json
 src/config.h
 .travis.yml
+.platformio.ini
